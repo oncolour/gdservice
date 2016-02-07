@@ -1,3 +1,32 @@
 /* Medium and up */
 
-@media screen and (min-width: 40em) {}
+@media screen and (min-width: 40em) {
+    #hero {
+        height: 65vh;
+        background-image: url('../assets/images/buss-bg-mediuml.jpg');
+    }
+    #hero .row a {
+        display: inline-block;
+    }
+    #hero .button {
+        margin-right: 1em;
+    }
+    /* Banner */
+    [role=banner] {
+        height: 350px;
+        background: url('../assets/images/banner-buss.jpg') no-repeat center center;
+        background-size: cover;
+        margin: 4rem 0;
+        padding: 2.5em 0;
+    }
+    [role=banner] h3 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 100;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    [role=banner] h3 strong {
+        display: inline-block;
+        font-weight: 500;
+    }
+}
