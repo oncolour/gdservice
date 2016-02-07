@@ -1,0 +1,139 @@
+/* Reset */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0.01rem 0px 0px rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    background-color: #fcfcfc;
+    color: #333;
+    font-size: 16.5px;
+    line-height: 1;
+}
+
+.row {
+    max-width: 80rem;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 0.5em;
+}
+
+h2 {}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {}
+
+article p {
+    font-size: 1.125rem;
+    line-height: 1.55;
+    margin-bottom: 1.5em;
+    color: #616161;
+}
+
+i.fa {
+    color: #2199e8;
+    text-align: center;
+    padding-right: 0.5em;
+    font-size: 1.2rem;
+    width: 30px;
+}
+
+
+/* Hero */
+
+#hero {
+    height: 100vh;
+    background: url('../assets/images/buss-bg-small.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+#hero .row {
+    padding-top: 20vh;
+}
+
+#hero h1 {
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+#hero p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 2em;
+}
+
+#hero .row a {
+    display: block;
+    color: #fff;
+    margin-bottom: 0.7em;
+    font-size: 1rem;
+}
+
+#hero .button {
+    margin: auto;
+}
+
+
+/* Article - Home page */
+
+[role=article] {}
+
+.tjanster-list p {
+    margin-bottom: 0.3em;
+}
+
+
+/* Banner */
+
+[role=banner] {
+    height: 30vh;
+    background: url('../assets/images/banner-buss-small.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 4rem 0;
+    padding: 1.5em 0;
+}
+
+[role=banner] h3 {
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+[role=banner] h3 strong {
+    display: block;
+}
