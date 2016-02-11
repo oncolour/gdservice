@@ -4001,9 +4001,6 @@ i.fa {
 [role=banner] h3 strong {
   display: block; }
 
-.column:last-child:not(:first-child), .columns:last-child:not(:first-child), .columns:last-child:not(:first-child) {
-  float: none; }
-
 /* Medium and up */
 @media screen and (min-width: 40em) {
   #hero {
