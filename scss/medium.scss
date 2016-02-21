@@ -16,7 +16,7 @@
         height: 350px;
         background: url('../assets/images/banner-buss.jpg') no-repeat center center;
         background-size: cover;
-        margin: 4rem 0;
+        margin: 4rem 0 0 0;
         padding: 2.5em 0;
     }
     [role=banner] h3 {
@@ -28,5 +28,14 @@
     [role=banner] h3 strong {
         display: inline-block;
         font-weight: 500;
+    }
+    /* Footer */
+    .vcard {
+        .adr,
+        .email,
+        .tel {
+            display: inline-block;
+            margin-right: 2em;
+        }
     }
 }

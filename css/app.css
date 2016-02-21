@@ -3899,6 +3899,11 @@ body {
 .row {
   max-width: 80rem; }
 
+.column, .columns,
+.columns {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem; }
+
 ul {
   margin: 0;
   list-style: none; }
@@ -3990,16 +3995,59 @@ i.fa {
   height: 30vh;
   background: url("../assets/images/banner-buss-small.jpg") no-repeat center center;
   background-size: cover;
-  margin: 4rem 0;
+  margin: 4rem 0 0 0;
   padding: 1.5em 0; }
+  [role=banner] h3 {
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+    [role=banner] h3 strong {
+      display: block; }
 
-[role=banner] h3 {
-  color: #fff;
-  font-weight: 100;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+/* Footer */
+footer {
+  background: #363535;
+  font-size: 0.8rem;
+  padding: 1em 0 0 0; }
+  footer p {
+    background: #313131;
+    margin: 0;
+    padding: 1.4em 0;
+    color: #efefef;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center; }
+    footer p a {
+      opacity: 0.8; }
 
-[role=banner] h3 strong {
-  display: block; }
+/* hCard */
+.vcard {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #efefef;
+  margin: 1em 0 2em; }
+  .vcard .fn,
+  .vcard .org {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #efefef; }
+  .vcard a,
+  .vcard div {
+    display: inline-block; }
+  .vcard .adr,
+  .vcard .email,
+  .vcard .tel {
+    display: block; }
+  .vcard .email span {
+    color: #efefef;
+    border-bottom: 1px solid #efefef; }
+  .vcard .tel a {
+    font-weight: 500;
+    color: #efefef; }
+  .vcard .fa {
+    font-size: 0.9rem;
+    color: #efefef;
+    opacity: 0.8; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
@@ -4015,7 +4063,7 @@ i.fa {
     height: 350px;
     background: url("../assets/images/banner-buss.jpg") no-repeat center center;
     background-size: cover;
-    margin: 4rem 0;
+    margin: 4rem 0 0 0;
     padding: 2.5em 0; }
   [role=banner] h3 {
     color: #fff;
@@ -4024,7 +4072,13 @@ i.fa {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
   [role=banner] h3 strong {
     display: inline-block;
-    font-weight: 500; } }
+    font-weight: 500; }
+  /* Footer */
+  .vcard .adr,
+  .vcard .email,
+  .vcard .tel {
+    display: inline-block;
+    margin-right: 2em; } }
 
 /* Large and up */
 @media screen and (min-width: 64em) {
@@ -4062,7 +4116,7 @@ i.fa {
     height: 500px;
     background: url("../assets/images/banner-buss.jpg") no-repeat center center;
     background-size: cover;
-    margin: 4rem 0;
+    margin: 4rem 0 0 0;
     padding: 3.5em 0; }
   [role=banner] h3 {
     color: #fff;
@@ -4071,4 +4125,20 @@ i.fa {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
   [role=banner] h3 strong {
     display: inline-block;
-    font-weight: 500; } }
+    font-weight: 500; }
+  /* Footer */
+  footer {
+    /* hCard */ }
+    footer p {
+      opacity: 0.8;
+      text-align: right;
+      background: transparent;
+      margin-top: 2.35em;
+      font-size: 0.9rem; }
+    footer .vcard {
+      font-size: 1rem; }
+      footer .vcard .fn,
+      footer .vcard .org {
+        font-size: 1.2rem; }
+      footer .vcard .fa {
+        font-size: 0.9rem; } }
