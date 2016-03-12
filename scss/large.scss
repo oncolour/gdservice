@@ -11,8 +11,10 @@
                     /* Hero */
                     #hero {
                         height: 65vh;
+                        min-height: 590px;
                         background-image: url('../assets/images/buss-bg.jpg');
                         margin-bottom: 7em;
+                        background-attachment: fixed;
                     }
                     #hero .row {
                         padding-top: 15vh;
