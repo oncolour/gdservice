@@ -1,0 +1,36 @@
+{
+  "name": "gdservice",
+  "version": "1.0.0",
+  "homepage": "http://www.gdservice.se",
+  "description": "GDservice by Oncolour.se.",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "foundation-sites": "latest",
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-modernizr": "latest",
+    "grunt-newer": "latest",
+    "grunt-postcss": "latest",
+    "grunt-sass": "latest",
+    "jit-grunt": "latest",
+    "motion-ui": "latest",
+    "postcss": "latest",
+    "postcss-browser-reporter": "latest",
+    "postcss-cssnext": "latest",
+    "postcss-import": "latest",
+    "postcss-reporter": "latest",
+    "postcss-url": "latest",
+    "time-grunt": "latest",
+    "watch": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

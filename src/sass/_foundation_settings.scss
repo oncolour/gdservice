@@ -1,0 +1,6 @@
+@import 'util/util'; // Need this because settings file uses functions
+
+$global-width: rem-calc(1000);
+$primary-color: #6529e8;
+$secondary-color: #466e4c;
+$body-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;

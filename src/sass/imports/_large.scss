@@ -1,0 +1,84 @@
+                /* Large and up */
+                
+                @media screen and (min-width: 64em) {
+                    h1 {
+                        line-height: 1.2;
+                    }
+                    article p {
+                        color: #818181;
+                        font-size: 1.2rem;
+                    }
+                    /* Hero */
+                    #hero {
+                        height: 65vh;
+                        min-height: 590px;
+                        background-image: url('../images/buss-bg.jpg');
+                        margin-bottom: 7em;
+                        background-attachment: fixed;
+                    }
+                    #hero .row {
+                        padding-top: 15vh;
+                    }
+                    #hero h1 {
+                        font-size: 1.4rem;
+                    }
+                    #hero h2 {
+                        font-size: 3.3rem;
+                        font-weight: 700;
+                        line-height: 1.1;
+                    }
+                    #hero p {
+                        font-size: 1.8rem;
+                        line-height: 1.4;
+                        margin-bottom: 1em;
+                    }
+                    #hero .row a {
+                        font-size: 1.2rem;
+                    }
+                    /* Article - Home page */
+                    .tjanster-list h3 {
+                        margin-bottom: 0.8em;
+                    }
+                    .tjanster-list p {
+                        font-weight: 400;
+                    }
+                    /* Banner */
+                    [role=banner] {
+                        height: 500px;
+                        background: url('../images/banner-buss.jpg') no-repeat center center;
+                        background-size: cover;
+                        margin: 4rem 0 0 0;
+                        padding: 3.5em 0;
+                    }
+                    [role=banner] h3 {
+                        color: #fff;
+                        font-size: 2.8rem;
+                        font-weight: 100;
+                        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+                    }
+                    [role=banner] h3 strong {
+                        display: inline-block;
+                        font-weight: 500;
+                    }
+                    /* Footer */
+                    footer {
+                        p {
+                            opacity: 0.8;
+                            text-align: right;
+                            background: transparent;
+                            margin-top: 2.35em;
+                            font-size: 0.9rem;
+                        }
+                        /* hCard */
+                        .vcard {
+                            font-size: 1rem;
+                            .fn,
+                            .org {
+                                font-size: 1.2rem;
+                            }
+                            .fa {
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+                }

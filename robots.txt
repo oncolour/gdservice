@@ -1,0 +1,5 @@
+# http://www.gdservice.se/robots.txt
+
+User-agent: *
+
+#Sitemap: 
