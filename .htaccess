@@ -1,4 +1,4 @@
 #Force www:
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^gdservice.se [NC]
+RewriteCond %{HTTP_HOST} !^gdservice.se [NC]
 RewriteRule ^(.*)$ http://www.gdservice.se/$1 [L,R=301]
