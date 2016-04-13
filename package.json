@@ -6,6 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
+    "apache-server-configs": "^2.14.0",
     "foundation-sites": "latest",
     "grunt": "latest",
     "grunt-cli": "latest",
