@@ -1,13 +1,11 @@
 
 # URL Rewrite to www.gdservice.se
-#RewriteEngine On
-#RewriteCond %{HTTP_HOST} ^gdservice.se [NC]
-#RewriteRule ^(.*)$ http://www.GDservice.se/$1 [L,R=301]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^gdservice.se [NC]
+RewriteRule ^(.*)$ http://www.GDservice.se/$1 [L,R=301]
 
 # END URL Rewrite
 
-
-# END OSCARS htaccess
 # Apache Server Configs v2.14.0 | MIT License
 # https://github.com/h5bp/server-configs-apache
 
