@@ -1,6 +1,6 @@
 
 # URL Rewrite to www.gdservice.se
-
+RewriteEngine On
 RewriteCond %{HTTP_HOST} ^gdservice.se [NC]
 RewriteRule ^(.*)$ http://www.gdservice.se/$1 [L,R=301]
 
