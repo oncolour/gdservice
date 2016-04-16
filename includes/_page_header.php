@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busstvätt och Chaufförsbemanning - GD Service</title>
-    <meta name="description" content="GD Service erbjuder högkvalitativ tvätt, service och underhåll av turistbussar samt chaufförsbemanning inom Sverige med utgångspunkt i Stockholm.">
+    <meta name="description" content="GD Service erbjuder högkvalitativ busstvätt, service och underhåll av turistbussar samt chaufförsbemanning inom Sverige med utgångspunkt i Stockholm.">
     
     <?php // Check REMOTE_ADDR  phpinfo(); ?>
     
