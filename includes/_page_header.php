@@ -16,17 +16,11 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="src/_build/gdservice.css">
     
-    <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
-    <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
-    
     <?php } else {?>
     <!-- Production -->
     <link rel="stylesheet" href="css/f6.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/gdservice.min.css">
-    
-    <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
-    <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
     <!-- End Production imports -->
     <?php } ?>
 
