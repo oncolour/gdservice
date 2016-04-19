@@ -2,7 +2,8 @@
 <html class="no-js" lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+   	<meta charset="UTF-8">
+    <meta http-equiv="Content-Type">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busstvätt och Chaufförsbemanning - GD Service</title>

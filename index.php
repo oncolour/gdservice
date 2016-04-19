@@ -2,7 +2,7 @@
 
     <!-- Hero -->
     <section id="hero">
-        <nav role="navigation">
+        <nav>
             <a id="logo" href="/"><img src="src/images/gdservice-logo.png" alt="GD Service Logotyp"></a>
         </nav>
         <div class="row">
