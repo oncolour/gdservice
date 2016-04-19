@@ -10,7 +10,7 @@
                 <h1>Busstvätt &amp; Chaufförsbemanning i Stockholm.</h1>
                 <h2>Håll dina bussar tvättade.</h2>
                 <p>Vi erbjuder hög kvalitativ busstvätt och städservice för turistbussar i Sverige, med utgångspunkt Stockholm.</p>
-                <span itemscope itemtype="http://schema.org/Offer"><a itemprop="url" class="button" href="mailto:daniel@gdservice.se?subject=Kontakt från GDservice.se"><span itemprop="description">Få din buss tvättad idag</span></a></span>
+                <span itemscope itemtype="http://schema.org/Offer"><a itemprop="url" class="button" href="mailto:daniel@gdservice.se?subject=Kontakt%20från%20GDservice.se"><span itemprop="description">Få din buss tvättad idag</span></a></span>
                 <a class="text-center" href="#services">Vår service</a>
             </div>
         </div>
