@@ -17,7 +17,7 @@
     </div>
 
     <!-- Main Content -->
-    <section id="services" role="main">
+    <div id="services" role="main">
         <article class="row" itemscope itemtype="http://schema.org/Service">
 
             <header class="small-12  medium-8 large-3 columns">
@@ -38,7 +38,7 @@
                 </div>
             </aside>
         </article>
-    </section>
+</div>
 
     <!-- Banner -->
     <section role="banner">
