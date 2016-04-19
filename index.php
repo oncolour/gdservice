@@ -1,32 +1,32 @@
 <?php require 'includes/_page_header.php';?>
 
     <!-- Hero -->
-    <section id="hero">
+    <div id="hero">
         <nav>
             <a id="logo" href="/"><img src="src/images/gdservice-logo.png" alt="GD Service Logotyp"></a>
         </nav>
         <div class="row">
-            <div class="small-12 medium-offset-1 medium-10 large-offset-0 large-7 columns fadeInUp animated">
+            <section class="small-12 medium-offset-1 medium-10 large-offset-0 large-7 columns fadeInUp animated">
                 <h1>Busstvätt &amp; Chaufförsbemanning i Stockholm.</h1>
                 <h2>Håll dina bussar tvättade.</h2>
                 <p>Vi erbjuder hög kvalitativ busstvätt och städservice för turistbussar i Sverige, med utgångspunkt Stockholm.</p>
                 <span itemscope itemtype="http://schema.org/Offer"><a itemprop="url" class="button" href="mailto:daniel@gdservice.se?subject=Kontakt%20från%20GDservice.se"><span itemprop="description">Få din buss tvättad idag</span></a></span>
                 <a class="text-center" href="#services">Vår service</a>
-            </div>
+            </section>
         </div>
-    </section>
+    </div>
 
     <!-- Main Content -->
     <section id="services" role="main">
-        <div class="row" itemscope itemtype="http://schema.org/Service">
+        <article class="row" itemscope itemtype="http://schema.org/Service">
 
             <header class="small-12  medium-8 large-3 columns">
                 <h1 itemprop="serviceType">Vi erbjuder högkvalitativ busstvätt och uthyrning av chaufför.</h1>
             </header>
-            <article class="small-12 medium-12 large-5 columns" itemprop="description">
+            <div class="small-12 medium-12 large-5 columns" itemprop="description">
                 <p>Vi utför större städuppdrag där vi jobbar med fordonet en dag eller två. Vi arbetar från grunden med hjälp av ångmaskiner och andra verktyg.</p>
                 <p>Vi hyr ut erfarna chaufförer med behörighet C eller D för kortare och längre uppdrag inom transportsektorn. </p>
-            </article>
+			</div>
 
 
             <aside class="small-12 medium-12 large-4 tjanster-list columns">
@@ -37,7 +37,7 @@
                     <p class="small-12 large-12 columns"><i class="fa fa-truck"></i>Allt från invändigt städ till utvändig tvätt, service och toatömning beroende på tvätthallarnas förutsättningar.</p>
                 </div>
             </aside>
-        </div>
+        </article>
     </section>
 
     <!-- Banner -->
