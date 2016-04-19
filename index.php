@@ -17,7 +17,7 @@
     </section>
 
     <!-- Main Content -->
-    <section id="services" role="article">
+    <section id="services" role="main">
         <div class="row" itemscope itemtype="http://schema.org/Service">
 
             <header class="small-12  medium-8 large-3 columns">
