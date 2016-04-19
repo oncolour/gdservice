@@ -66,7 +66,7 @@
 
             </div>
 
-            <p class="small-12 large-5 columns" itemscope itemtype="https://schema.org/Property" >© <span itemprop="copyrightYear">2016</span> Copyright GDservice. Designad av <a href="http://oncolour.se" itemprop="url" target="_blank">Oncolour</a>.</p>
+            <p class="small-12 large-5 columns">© <span>2016</span> Copyright GDservice. Designad av <a href="http://oncolour.se" target="_blank">Oncolour</a>.</p>
         </div>
     </footer>
     <?php require 'includes/_page_footer.php';?>
