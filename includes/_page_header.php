@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="sv_SE" prefix="og: http://ogp.me/ns#">
+<html class="no-js" lang="sv" prefix="og: http://ogp.me/ns#">
 <head>
     <title>Busstvätt och Chaufförsbemanning - GDService</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -9,7 +9,7 @@
     <meta property="og:locale" content="sv_SE" />
 	<meta property="og:type" content="website" />
     <meta property="og:title" content="Busstvätt och Chaufförsbemanning - GDService" />
-	<meta property="og:description" content="description" content="GDService erbjuder högkvalitativ busstvätt, service och underhåll av turistbussar samt chaufförsbemanning inom Sverige med utgångspunkt i Stockholm." />
+	<meta property="og:description" content="GDService erbjuder högkvalitativ busstvätt, service och underhåll av turistbussar samt chaufförsbemanning inom Sverige med utgångspunkt i Stockholm." />
 	<meta property="og:url" content="http://www.gdservice.se" />
 	<meta property="og:site_name" content="GDservice" />
  	<meta property="og:image" content="http://www.gdservice.se/src/images/gdservice-logo.png" />
