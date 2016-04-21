@@ -103,7 +103,7 @@ i.fa {
 #hero .row a:not(.button) {
   padding: 1em 0; }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 64em) {
   #hero .row a:not(.button) {
     display: none; } }
 
