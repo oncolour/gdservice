@@ -105,10 +105,7 @@ i.fa {
 
 @media screen and (max-width: 40em) {
   #hero .row a:not(.button) {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0; } }
+    display: none; } }
 
 #hero .row a:first-child {
   margin-bottom: 32px; }
