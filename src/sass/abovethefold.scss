@@ -111,10 +111,14 @@
     #hero .row a {
         display: block;
         color: #fff;
-        margin-bottom: 1.7em;
+        margin-bottom: 1em;
         font-size: 1rem;
         font-weight: 300;
     }
+    
+#hero .row a:not(.button) {
+    padding: 1em 0;
+}
     
     #hero .button {
         margin: auto;
