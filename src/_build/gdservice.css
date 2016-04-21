@@ -26,7 +26,8 @@ footer {
     font-weight: 400;
     text-align: center; }
     footer p a {
-      opacity: 0.8; }
+      opacity: 0.8;
+      margin-bottom: 10px; }
 
 /* hCard */
 .vcard {
