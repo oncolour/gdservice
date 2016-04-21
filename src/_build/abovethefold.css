@@ -97,7 +97,8 @@ i.fa {
   color: #fff;
   margin-bottom: 1em;
   font-size: 1rem;
-  font-weight: 300; }
+  font-weight: 300;
+  min-height: 50px; }
 
 #hero .row a:not(.button) {
   padding: 1em 0; }
