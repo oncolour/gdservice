@@ -76,7 +76,7 @@ module.exports = function(grunt) {
 			},
 			all: {
 				files: {
-					'<%= globalConfig.build %>/f6.css': '<%= globalConfig.sass.src %>/f6.scss', '<%= globalConfig.build %>/gdservice.css': '<%= globalConfig.sass.src %>/gdservice.scss'
+					'<%= globalConfig.build %>/f6.css': '<%= globalConfig.sass.src %>/f6.scss', '<%= globalConfig.build %>/gdservice.css': '<%= globalConfig.sass.src %>/gdservice.scss', '<%= globalConfig.build %>/abovethefold.css': '<%= globalConfig.sass.src %>/abovethefold.scss'
 				}
 			}
 		},

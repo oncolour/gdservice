@@ -1,16 +1,6 @@
 /* Medium and up */
 
 @media screen and (min-width: 40em) {
-    #hero {
-        height: 65vh;
-        background-image: url('../images/buss-bg-mediuml.jpg');
-    }
-    #hero .row a {
-        display: inline-block;
-    }
-    #hero .button {
-        margin-right: 1em;
-    }
     /* Banner */
     [role=banner] {
         height: 350px;

@@ -1,107 +1,3 @@
-/* Reset */
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.6px;
-  background-color: #fcfcfc;
-  color: #333;
-  font-size: 16.5px;
-  line-height: 1; }
-
-.row {
-  max-width: 80rem; }
-
-.column,
-.columns {
-  padding-left: 1.2rem;
-  padding-right: 1.2rem; }
-
-ul {
-  margin: 0;
-  list-style: none; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  line-height: 1.2; }
-
-h1 {
-  font-size: 2rem;
-  font-weight: 100;
-  margin-bottom: 0.5em; }
-
-h3 {
-  font-size: 1.5rem; }
-
-article p {
-  font-size: 1.125rem;
-  line-height: 1.55;
-  margin-bottom: 1.5em;
-  color: #616161; }
-
-i.fa {
-  color: #2199e8;
-  text-align: center;
-  padding-right: 0.5em;
-  font-size: 1.2rem;
-  width: 30px; }
-
-/* Hero */
-#logo img {
-  width: 175px;
-  margin: 1.5em 1em; }
-
-#hero {
-  height: 100vh;
-  background: url("../images/buss-bg-small.jpg") no-repeat center center;
-  background-size: cover;
-  color: #fff;
-  margin-bottom: 2em; }
-
-#hero .row {
-  padding-top: 20vh; }
-
-#hero h1 {
-  font-size: 1rem;
-  opacity: 0.6; }
-
-#hero h2 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.1; }
-
-#hero p {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  margin-bottom: 2em; }
-
-#hero .row a {
-  display: block;
-  color: #fff;
-  margin-bottom: 0.7em;
-  font-size: 1rem; }
-
-#hero .button {
-  margin: auto; }
-
-/* Article - Home page */
-.tjanster-list p {
-  margin-bottom: 0.3em; }
-
-.tjanster-list .column:last-child:not(:first-child),
-.tjanster-list .columns:last-child:not(:first-child) {
-  float: none; }
-
 /* Banner */
 [role=banner] {
   height: 30vh;
@@ -163,13 +59,6 @@ footer {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-  #hero {
-    height: 65vh;
-    background-image: url("../images/buss-bg-mediuml.jpg"); }
-  #hero .row a {
-    display: inline-block; }
-  #hero .button {
-    margin-right: 1em; }
   /* Banner */
   [role=banner] {
     height: 350px;
@@ -194,37 +83,6 @@ footer {
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-  h1 {
-    line-height: 1.2; }
-  article p {
-    color: #818181;
-    font-size: 1.2rem; }
-  /* Hero */
-  #hero {
-    height: 65vh;
-    min-height: 590px;
-    background-image: url("../images/buss-bg.jpg");
-    margin-bottom: 7em;
-    background-attachment: fixed; }
-  #hero .row {
-    padding-top: 15vh; }
-  #hero h1 {
-    font-size: 1.4rem; }
-  #hero h2 {
-    font-size: 3.3rem;
-    font-weight: 700;
-    line-height: 1.1; }
-  #hero p {
-    font-size: 1.8rem;
-    line-height: 1.4;
-    margin-bottom: 1em; }
-  #hero .row a {
-    font-size: 1.2rem; }
-  /* Article - Home page */
-  .tjanster-list h3 {
-    margin-bottom: 0.8em; }
-  .tjanster-list p {
-    font-weight: 400; }
   /* Banner */
   [role=banner] {
     height: 500px;
