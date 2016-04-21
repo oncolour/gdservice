@@ -102,6 +102,9 @@ i.fa {
 #hero .row a:not(.button) {
   padding: 1em 0; }
 
+#hero .row a:first-child {
+  margin-bottom: 32px; }
+
 #hero .button {
   margin: auto; }
 

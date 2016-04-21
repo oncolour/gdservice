@@ -107,7 +107,7 @@
         margin-bottom: 2em;
         font-weight: 300;
     }
-    
+
     #hero .row a {
         display: block;
         color: #fff;
@@ -116,9 +116,13 @@
         font-weight: 300;
     }
     
-#hero .row a:not(.button) {
-    padding: 1em 0;
-}
+    #hero .row a:not(.button) {
+        padding: 1em 0;
+    }
+
+   #hero .row a:first-child {
+        margin-bottom: 32px;
+    }
     
     #hero .button {
         margin: auto;
