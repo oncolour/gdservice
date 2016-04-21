@@ -121,12 +121,6 @@
         padding: 1em 0;
     }
 
-@media screen and (max-width: 64em) {
-    #hero .row a:not(.button) {
-       display: none;
-    }
-}
-
    #hero .row a:first-child {
         margin-bottom: 32px;
     }
