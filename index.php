@@ -3,7 +3,7 @@
     <!-- Hero -->
     <div id="hero">
         <nav>
-            <a id="logo" href="/"><img src="src/images/gdservice-logo.png" alt="GD Service Logotyp"></a>
+            <a id="logo" href="/"><img src="images/gdservice-logo.png" alt="GD Service Logotyp"></a>
         </nav>
         <div class="row">
             <section class="small-12 medium-offset-1 medium-10 large-offset-0 large-7 columns fadeInUp animated">

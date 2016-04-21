@@ -72,7 +72,7 @@
     
     #hero {
         height: 100vh;
-        background: url('http://www.gdservice.se/images/buss-bg-small.jpg') no-repeat center center;
+        background: url('images/buss-bg-small.jpg') no-repeat center center;
         background-size: cover;
         color: #fff;
         margin-bottom: 2em;
@@ -125,7 +125,7 @@
     @media screen and (min-width: 40em) {
         #hero {
             height: 65vh;
-            background-image: url('http://www.gdservice.se/images/buss-bg-mediuml.jpg');
+            background-image: url('images/buss-bg-mediuml.jpg');
         }
         #hero .row a {
             display: inline-block;
@@ -149,7 +149,7 @@
         #hero {
             height: 65vh;
             min-height: 590px;
-            background-image: url('http://www.gdservice.se/images/buss-bg.jpg');
+            background-image: url('images/buss-bg.jpg');
             margin-bottom: 7em;
             background-attachment: fixed;
         }
