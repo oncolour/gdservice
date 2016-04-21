@@ -103,6 +103,13 @@ i.fa {
 #hero .row a:not(.button) {
   padding: 1em 0; }
 
+@media screen and (max-width: 40em) {
+  #hero .row a:not(.button) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; } }
+
 #hero .row a:first-child {
   margin-bottom: 32px; }
 
